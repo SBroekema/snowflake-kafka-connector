@@ -46,7 +46,7 @@ public class SnowflakeSinkConnectorConfig {
   static final String TOPICS_TABLES_MAP = "snowflake.topic2table.map";
 
   // Time in seconds
-  public static final long BUFFER_FLUSH_TIME_SEC_MIN = 10;
+  public static final long BUFFER_FLUSH_TIME_SEC_MIN = 1;
   public static final long BUFFER_FLUSH_TIME_SEC_DEFAULT = 120;
   static final String BUFFER_FLUSH_TIME_SEC = "buffer.flush.time";
 
